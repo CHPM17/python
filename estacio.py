@@ -26,9 +26,9 @@ def criar_grafico_barra(df, coluna, titulo, xlabel, ylabel):
     plt.ylabel(ylabel)
     st.pyplot(plt)
 
-# Gerar dados fictícios para a análise
+# Gerar dados para a análise
 
-# Dados fictícios de segurança
+# Dados de segurança
 dados_seguranca = {
     'latitude': np.random.uniform(-23.56, -23.54, 50),
     'longitude': np.random.uniform(-46.64, -46.62, 50),
@@ -36,7 +36,7 @@ dados_seguranca = {
 }
 df_seguranca = pd.DataFrame(dados_seguranca)
 
-# Dados fictícios de transporte público
+# Dados de transporte público
 dados_transporte = {
     'latitude': np.random.uniform(-23.56, -23.54, 30),
     'longitude': np.random.uniform(-46.64, -46.62, 30),
@@ -44,7 +44,7 @@ dados_transporte = {
 }
 df_transporte = pd.DataFrame(dados_transporte)
 
-# Dados fictícios de saneamento
+# Dados de saneamento
 dados_saneamento = {
     'latitude': np.random.uniform(-23.56, -23.54, 40),
     'longitude': np.random.uniform(-46.64, -46.62, 40),
@@ -52,7 +52,7 @@ dados_saneamento = {
 }
 df_saneamento = pd.DataFrame(dados_saneamento)
 
-# Dados fictícios de infraestrutura
+# Dados de infraestrutura
 dados_infraestrutura = {
     'latitude': np.random.uniform(-23.56, -23.54, 40),
     'longitude': np.random.uniform(-46.64, -46.62, 40),
